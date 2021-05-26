@@ -1,2 +1,2 @@
-# AlexStenin.github.io
+# Алексей Стенин
 My first site
