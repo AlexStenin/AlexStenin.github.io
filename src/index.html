@@ -47,8 +47,6 @@
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, optio enim, quaerat amet impedit nostrum nesciunt placeat incidunt asperiores rerum repellendus iure, soluta ad doloremque natus recusandae sunt modi omnis!</span>
 
         <input type="submit" value="Скачать резюме">
-        <!--Добваить мини пикчу download'a-->
-
     </div>
 
     <div class="what_i_can">
@@ -56,24 +54,23 @@
         <h2>ЧТО Я УМЕЮ</h2>
 
         <div id="line"><img src="img/line.png" alt=""></div>
-        <!--Сделать в css-->
 
         <div class="block_description">
 
             <div class="web_design">
-                <img src="" alt="">
+                <img src="img/notebook.png" alt="" id="web_des">
                 <!--Картинка с ноутом-->
-                <span><b>Веб-дизайн</b></span> <br>
+                <h3><b>Веб-дизайн</b></h3> <br>
 
-                <span>Lorem ipsum dolor sit amet, <br>
-                    consectetur adipisicing elit. <br>
+                <span>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
                     Quam, recusandae.</span>
             </div>
 
             <div class="dev">
-                <img src="" alt="">
+                <img src="img/znak.png" alt="" id="dev">
                 <!--Картинка с тегом-->
-                <span><b>Разработка</b></span> <br>
+                <h3><b>Разработка</b></h3> <br>
 
                 <span>Lorem ipsum dolor sit amet, <br>
                     consectetur adipisicing elit. <br>
@@ -81,19 +78,19 @@
             </div>
 
             <div class="optimisation">
-                <img src="" alt="">
+                <img src="img/rocket.png" alt="" id="rocket">
                 <!--Картинка с ракетой-->
-                <span><b>CEO-Оптимизация</b></span> <br>
+                <h3><b>CEO-Оптимизация</b></h3> <br>
 
                 <span>Lorem ipsum dolor sit amet, <br>
                     consectetur adipisicing elit. <br>
                     Iure.</span>
             </div>
 
-            <div class="web_design">
-                <img src="" alt="">
+            <div class="marketing">
+                <img src="img/gramofon.png" alt="" id="gramofon">
                 <!--Картинка с рупором-->
-                <span><b>Маркетинг</b></span> <br>
+                <h3><b>Маркетинг</b></h3> <br>
 
                 <span>Lorem ipsum dolor sit amet, <br>
                     consectetur adipisicing elit. <br>
@@ -103,42 +100,47 @@
         </div>
     </div>
 
-    <div class="case's">
+    <div class="case_s">
 
         <h2>КЕЙСЫ</h2>
 
         <div id="line"><img src="img/line.png" alt=""></div>
-        <!--Сделать в css-->
 
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, consectetur, quae! Explicabo repudiandae labore, nostrum.</span>
 
+        <img src="img/ex_prj.png" alt="" id="ex_prj">
+
         <div class="website_example">
-            <!--  <img src="" alt="">  2-3 Картинки с готовым сайтом-->
+
+
 
             <div class="client_web">
                 <h4>CLIENT:</h4> <br>
-                <span>Какая-то копания</span> <br>
+
+                <span>Какая-то компания</span> <br>
 
                 <h4>WEBSITE:</h4> <br>
                 <a href="https://www.somedomain.com">https://www.somedomain.com</a> <br>
 
-                <input type="submit" value="VISIT LIVE SITE"> <br> <!-- Оформление кнопки в css-->
+                <input type="submit" value="VISIT LIVE SITE"> <br>
 
             </div>
 
             <div class="project_name">
 
                 <h3>Название проекта</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                    Animi magni similique omnis temporibus explicabo labore, quasi porro ipsam, repellendus voluptatum impedit quaerat doloribus incidunt. <br>
-                    Blanditiis quaerat, at suscipit ipsam quibusdam!</span>
+
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet vero, excepturi ut doloribus officiis assumenda soluta tempore blanditiis labore doloremque reiciendis facere magnam voluptatibus rem culpa in saepe quam. Expedita pariatur unde eum dicta fuga ratione recusandae suscipit, aliquam quasi adipisci sunt esse veritatis animi maiores, iste voluptate excepturi ducimus.</span>
             </div>
         </div>
     </div>
 
-    <h2>Расчет стоимости</h2>
+
 
     <div class="calculation">
+
+        <h2>Расчет стоимости</h2>
+        <div id="line"><img src="img/line.png" alt=""></div>
         <form action="#" name="calc">
 
             <h3>ТИП САЙТА</h3>
@@ -154,6 +156,7 @@
 
             <h3>ДИЗАЙН</h3>
             <select name="design" id="2">
+                <option disabled>Выберите пункт...</option>
                 <option value="Классический">Классический</option>
                 <option value="Минимализм">Минимализм</option>
                 <option value="Типографика">Типографика</option>
@@ -164,6 +167,7 @@
 
             <h3>АДАПТИВНОСТЬ</h3>
             <select name="adapt" id="3">
+                <option disabled>Выберите пункт...</option>
                 <option value="Адаптивность под планшеты">Адаптивность под планшеты</option>
                 <option value="Адаптивность под смартфоны">Адаптивность под смартфоны</option>
             </select>
@@ -239,7 +243,7 @@
         <div class="contacts">
             <h2>МОИ КОНТАКТЫ</h2>
 
-            <div class="line"><img src="img/line.png" alt=""></div>
+            <div id="line"><img src="img/line.png" alt=""></div>
             <!--Сделать в css-->
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat totam nam eveniet accusantium maxime illo error eum accusamus amet libero?</span>
 

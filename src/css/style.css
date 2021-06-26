@@ -1,13 +1,15 @@
-body{
+body {
     font-family: Arial, sans-serif;
 }
-nav{
+
+nav {
     width: 100%;
     height: 60px;
     background: #344051;
-    
+
 }
-.logo{
+
+.logo {
     color: #fff;
     font-size: 28px;
     line-height: 60px;
@@ -15,12 +17,12 @@ nav{
     float: left;
 }
 
-.menu{
+.menu {
     float: left;
     padding-left: 432px;
 }
 
-.menu li{
+.menu li {
     float: left;
     line-height: 60px;
     color: #fff;
@@ -29,26 +31,30 @@ nav{
     text-transform: uppercase;
 }
 
-.main{
+.main {
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/me.png) 90% 100%/auto 75% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
-} 
-.title_container{
+    background: url(../img/me.png) 90% 100%/auto 75% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container {
     float: left;
     margin: 400px 0px 0px 404px;
     color: #f9fafe;
     text-align: center;
 }
-.title_container h1{
+
+.title_container h1 {
     font-size: 60px;
     font-weight: bold;
 }
-.title_container h4{
+
+.title_container h4 {
     margin-top: 40px;
     font-size: 21px;
 }
-.title_container input{
+
+.title_container input {
     height: 40px;
     text-align: center;
     border: 2px solid #fff;
@@ -57,19 +63,24 @@ nav{
     color: #fff;
     font-size: 16px;
     padding: 0px 16px;
-    margin: 55px 14px 0px 14px;    
+    margin: 55px 14px 0px 14px;
 }
+
 .about_me {
     float: left;
     width: 100%;
     height: 715px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#080808+0,383838+50,5e5e5e+100 */
-background: #080808; /* Old browsers */
-background: -moz-linear-gradient(top,  #080808 0%, #383838 50%, #5e5e5e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #080808 0%,#383838 50%,#5e5e5e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #080808 0%,#383838 50%,#5e5e5e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', endColorstr='#5e5e5e',GradientType=0 ); /* IE6-9 */
-
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#080808+0,222222+50,161819+100 */
+    background: #080808;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #080808 0%, #222222 50%, #161819 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #080808 0%, #222222 50%, #161819 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #080808 0%, #222222 50%, #161819 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#080808', endColorstr='#161819', GradientType=0);
+    /* IE6-9 */
 }
 
 #pic {
@@ -77,11 +88,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', end
 
     width: 10%;
     height: 24%;
-    border: 1px solid #fff;
+    border: 1px solid #080808;
     border-radius: 50%;
 }
 
-.about_me h2{
+.about_me h2 {
     font-size: 33px;
     font-weight: bold;
     margin-top: 110px;
@@ -89,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', end
     color: #fff;
 }
 
-.about_me span{
+.about_me span {
     width: 45%;
     display: block;
     text-align: justify;
@@ -99,7 +110,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', end
     color: #fff;
 }
 
-.about_me input{
+.about_me input {
     height: 40px;
     text-align: center;
     border: 2px solid #fff;
@@ -109,10 +120,231 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', end
     font-size: 14px;
     padding: 0px 10px;
     margin: 40px 14px 0px calc(50% - 38px);
+}
+
+#line {
+    margin-top: 30px;
+    margin-left: calc(50% - 10px);
+}
+
+.what_i_can {
+    float: left;
+    width: 100%;
+    height: 524px;
+    background: url(../img/fon1.png) center/cover no-repeat;
+}
+
+.block_description {
+    width: 1110px;
+    height: 260px;
+    margin-left: calc(25% - 15px);
+}
+
+.what_i_can h2 {
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-left: calc(50% - 75px);
+    color: #fff;
+}
+
+.web_design {
+    width: 210px;
+    float: left;
+    margin: 50px 0px 0px 0px;
+}
+
+.web_design h3 {
+    color: #cf7600;
+    margin: 15px 0px 0px 65px;
+}
+
+.web_design span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+#web_des {
+    margin-left: 78px;
+}
+
+.dev {
+    float: left;
+    margin: 50px 0px 0px 84px;
 
 }
 
-#line{
-    margin-top: 30px;
-    margin-left: calc(50% - 10px);
+.dev h3 {
+    color: #cf7600;
+    margin: 15px 0px 0px 52px;
+
+}
+
+.dev span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+#dev {
+    margin-left: 67px;
+}
+
+.optimisation {
+    float: left;
+    margin: 50px 0px 0px 84px;
+
+}
+
+.optimisation h3 {
+    color: #cf7600;
+    margin: 15px 0px 0px 30px;
+}
+
+.optimisation span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+#rocket {
+    margin-left: 83px;
+}
+
+.marketing {
+    float: left;
+    margin: 50px 0px 0px 84px;
+}
+
+.marketing h3 {
+    color: #cf7600;
+    margin: 15px 0px 0px 65px;
+}
+
+.marketing span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+#gramofon {
+    margin-left: 80px;
+}
+
+.case_s {
+    float: left;
+    width: 100%;
+    height: 1152px;
+}
+
+.case_s h2 {
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-left: calc(50% - 32px);
+}
+
+.case_s > span {
+    margin:  30px 0px 0px 0px;
+    display: block;
+    text-align: center;
+}
+
+#ex_prj {
+    margin: 30px 0px 0px 390px;
+}
+
+.website_example {
+    margin: 30px 0px 0px 390px;
+    width: 1180px;
+    height: 215px;
+}
+
+.client_web {
+    float: left;
+}
+
+.client_web h4 {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.client_web span {
+    display: block;
+    font-size: 15px;
+}
+
+.client_web a {
+    display: block;
+    font-size: 15px;
+}
+
+.client_web input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid darkorange;
+    background-color: darkorange;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    padding: 0px 39px;
+    margin: 0px 0px 0px 0px;
+}
+
+.project_name {
+    
+    width: 900px;
+    float: left;
+    margin-left: 79px;
+}
+
+.project_name h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project_name span{
+    display: block;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.calculation {
+    height: 850px;
+    width: 100%;
+    float: left;
+}
+
+.calculation h2{
+    font-size: 33px;
+    margin: 100px 0px 0px calc(50% - 105px);  
+}
+
+.calculation h3{
+    font-size: 27px;
+    
+}
+
+.statistic {
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+
+.reviews {
+    height: 590px;
+    width: 100%;
+    float: left;
+}
+
+.contacts{
+    height: 810px;
+    width: 100%;
+    float: left;
 }
