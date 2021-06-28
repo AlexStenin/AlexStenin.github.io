@@ -33,7 +33,7 @@ nav {
 
 .main {
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(1015px);
     background: url(../img/me.png) 90% 100%/auto 75% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
@@ -85,7 +85,6 @@ nav {
 
 #pic {
     margin: 15px 0px 15px calc(46% + 6px);
-
     width: 10%;
     height: 24%;
     border: 1px solid #080808;
@@ -294,12 +293,11 @@ nav {
     color: white;
     font-size: 16px;
     padding: 0px 39px;
-    margin: 0px 0px 0px 0px;
 }
 
 .project_name {
     
-    width: 900px;
+    width: 850px;
     float: left;
     margin-left: 79px;
 }
@@ -323,12 +321,34 @@ nav {
 
 .calculation h2{
     font-size: 33px;
-    margin: 100px 0px 0px calc(50% - 105px);  
+    font-weight: bold;
+    margin: 100px 0px 0px calc(50% - 116px);  
 }
 
 .calculation h3{
     font-size: 27px;
-    
+    margin: 10px 0px 0px 500px;
+}
+
+.calculation select{
+    width: 891px;
+    height: 60px;
+    margin: 9px 0px 20px 500px;
+    padding: 0px 0px 0px 15px;
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #7d7d7d;
+}
+
+#line_end {
+    margin: 0px 0px 0px 500px;
+}
+
+.calculation span{
+    display: block;
+    margin: 10px 0px 0px 500px;
 }
 
 .statistic {
@@ -337,14 +357,256 @@ nav {
     float: left;
 }
 
+.statistic h2{
+    font-size: 33px;
+    font-weight: bold;
+    margin: 105px 0px 0px calc(50% - 163px);
+}
+
+.block_statistic{
+    float: left;
+    height: 235px;
+    width: 1300px;
+    margin: 50px 0px 0px 340px;
+}
+
+.happy_client {
+    float: left;
+    
+}
+
+.happy_client h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 35px 0px 0px 70px;
+}
+
+.happy_client span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 15px 0px 0px 0px;
+}
+
+#smile{
+    margin: 0px 0px 0px 80px;
+}
+
+.hours {
+    float: left;
+    margin: 0px 0px 0px 150px;
+}
+
+.hours h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 35px 0px 0px 70px;
+}
+
+.hours span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 15px 0px 0px 30px;
+}
+
+#clock {
+    margin: 0px 0px 0px 80px;
+    width: 52px;
+}
+
+.proj_end {
+    float: left;
+    margin: 0px 0px 0px 150px;
+}
+
+.proj_end h3 {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 35px 0px 0px 87px;
+}
+.proj_end span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 19px 0px 0px 0px;
+}
+
+#ok {
+    margin: 0px 0px 0px 76px;
+}
+
+.awards {
+    float: left;
+    margin: 0px 0px 0px 150px;
+}
+
+.awards h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 35px 0px 0px 67px;
+}
+
+.awards span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 15px 0px 0px 0px;
+}
+
+
+#kubek {
+    margin: 0px 0px 0px 54px;
+}
+
 .reviews {
-    height: 590px;
+    height: 600px;
     width: 100%;
     float: left;
 }
 
-.contacts{
+.reviews h2{
+    font-size: 33px;
+    font-weight: bold;
+    margin: 105px 0px 0px calc( 50% - 50px);
+}
+
+.scroller {
+    float: left;
+    width: 700px;
+    height: 340px;
+    margin: 30px 0px 0px 635px;
+}
+
+.scroller span {
+    margin-top: 35px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#mafioznik {
+    margin: 15px 0px 15px calc(50% - 59px);
+    width: 15%;
+    height: 29%;
+    border: 1px solid #080808;
+    border-radius: 50%;
+}
+
+
+.contacts {
+    float: left;
     height: 810px;
     width: 100%;
+	background: url(../img/fon_cont.png);
+}
+
+.contacts h2 {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 105px 0px 0px calc( 50% - 106px);
+    color: #fff;
+}
+
+
+
+.contacts>span {
+    display: block;
+    margin: 30px 0px 0px 690px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.location {
+    float: left;
+    width: 100px;
+    margin: 55px 0px 0px 670px;
+}
+
+.location span {
+    display: block;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#geo {
+    margin: 0px 0px 0px 41px;
+}
+
+.mail {
+	float: left;
+	width: 160px;
+	margin: 55px 0px 0px 130px;
+}
+
+.mail span {
+    display: block;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#convert {
+    margin: 0px 0px 0px 60px;
+}
+
+.phone {
+    float: left;
+    width: 116px;
+    margin: 55px 0px 0px 110px;
+}
+
+.phone span {
+    display: block;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#phone {
+    margin: 0px 0px 0px 49px;
+}
+
+.contacts h3 {
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 50px 0px 0px calc( 50% - 150px);
+	color: #fff;
+}
+
+
+.input_text {
+    float: left;
+    
+}
+
+.input_text input {
+    float: left;
+}
+.name {
+    float: left;
+}
+
+.usermail {
+    float: left;
+}
+
+
+
+.maps {
+    float: left;
+}
+
+.msg {
+    float: left;
+}
+
+.copyright {
     float: left;
 }
