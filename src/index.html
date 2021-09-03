@@ -19,24 +19,25 @@
             <div class="logo">Алексей Стенин</div>
             <div class="menu">
                 <ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="main">
+    <main>
+    <section class="main">
         <div class="title_container">
             <h1>Привет <br>Я Алексей Стенин </h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
+            <input type="button" value="Обо мне">
+            <input type="button" value="Мои работы">
         </div>
-    </div>
+    </section>
 
     <div class="about_me">
 
@@ -146,7 +147,7 @@
 
             <h3>ТИП САЙТА</h3>
             <select name="type_site" id="1">
-                <option disabled>Выберите пункт...</option>
+                <option selected>Выберите пункт...</option>
                 <option value="Landing page">Landing page (Одностраничный сайт)</option>
                 <option value="Интернет-магазин">Интернет-магазин</option>
                 <option value="Имиджевый сайт">Имиджевый сайт</option>
@@ -157,7 +158,7 @@
 
             <h3>ДИЗАЙН</h3>
             <select name="design" id="2">
-                <option disabled>Выберите пункт...</option>
+                <option selected>Выберите пункт...</option>
                 <option value="Классический">Классический</option>
                 <option value="Минимализм">Минимализм</option>
                 <option value="Типографика">Типографика</option>
@@ -168,7 +169,7 @@
 
             <h3>АДАПТИВНОСТЬ</h3>
             <select name="adapt" id="3">
-                <option disabled>Выберите пункт...</option>
+                <option selected>Выберите пункт...</option>
                 <option value="Адаптивность под планшеты">Адаптивность под планшеты</option>
                 <option value="Адаптивность под смартфоны">Адаптивность под смартфоны</option>
             </select>
@@ -236,6 +237,7 @@
 
         </div>
     </div>
+    </main>
 <footer>
     <div class="contacts">
         <h2>МОИ КОНТАКТЫ</h2>
@@ -272,28 +274,28 @@
             <form action="#">
                 <div class="name">
 
-                    <input type="text" name="text_name" placeholder="Имя" id="input_name">
+                    <input type="text" name="text_name" placeholder="Имя" id="input_name" required>
 
                 </div>
 
                 <div class="usermail">
 
-                    <input type="text" name="text_usermail" placeholder="Email" id="input_usermail">
+                    <input type="email" name="text_usermail" placeholder="Email" id="input_usermail" required>
 
                 </div>
 
                 <div class="msg">
 
-                    <input type="text" name="text_msg" placeholder="Сообщение" id="input_msg">
+                    <input type="text" name="text_msg" placeholder="Сообщение" id="input_msg" required>
 
                 </div>
 
-                <input type="submit" value="Отправить" id="button_send">
-                <!--onclick autocopy js code-->
+                <input type="submit" value="Отправить" id="button_send" >
+                
             </form>
 
             <div class="social_network"></div>
-            <!--Кнопки с переходом на соц страницы-->
+            
 
         </div>
 
@@ -311,3 +313,6 @@
 </body>
 
 </html>
+
+
+
