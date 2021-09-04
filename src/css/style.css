@@ -7,6 +7,22 @@ nav {
     height: 60px;
     background: #344051;
     position: fixed;
+    -webkit-animation: nav 1s ease forwards;
+    -o-animation: nav 1s ease forwards;
+    animation: nav 1s ease forwards;
+    opacity: 0;
+    z-index: 1;
+}
+
+@keyframes nav{
+    from{
+        margin-top: -100px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0px;
+        opacity: 1;
+    }
 }
 
 main {
@@ -39,18 +55,6 @@ main {
     padding-left: 432px;
     }
 
-    @keyframes topshift{
-        from {
-            margin-top: -60px;
-            opacity: 0;
-            
-        }
-
-        to {
-            opacity: 1;
-            margin-top: 0px;
-        }
-    }
 .menu li {
     float: left;
     line-height: 60px;
@@ -64,21 +68,38 @@ main {
     opacity: 0;
 }
 
+@keyframes topshift{
+        from {
+            margin-top: -60px;
+            opacity: 0;
+            
+        }
+
+        to {
+            opacity: 1;
+            margin-top: 0px;
+        }
+    }
+
+.menu li:nth-child(1){
+    animation-delay: 0.8s;
+}
+
 .menu li:nth-child(2){
-    animation-delay: 0.4s;
+    animation-delay: 1.2s;
 }
 
 .menu li:nth-child(3){
-    animation-delay: 0.8s;
-}
-.menu li:nth-child(4){
-    animation-delay: 1.2s;
-}
-.menu li:nth-child(5){
     animation-delay: 1.6s;
 }
-.menu li:nth-child(6){
+.menu li:nth-child(4){
     animation-delay: 2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 2.4s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2.8s;
 }
 
 
@@ -215,13 +236,24 @@ main {
     height: 40px;
     text-align: center;
     border: 2px solid #fff;
-    background: none;
     border-radius: 7px;
+    background: none;
     color: #fff;
     font-size: 14px;
     padding: 0px 10px;
     margin: 40px 14px 0px calc(50% - 38px);
+    transition: all 0.2s;
 }
+
+.about_me input:hover{
+    background: #444455;
+    transform: scale(1);
+} 
+
+.about_me input:active{
+    transform: scale(0.9);
+}
+
 
 #line {
     margin-top: 30px;
@@ -302,7 +334,7 @@ main {
 
 .optimisation h3 {
     color: #cf7600;
-    margin: 15px 0px 0px 30px;
+    margin: 15px 0px 0px 26px;
 }
 
 .optimisation span {
@@ -313,7 +345,7 @@ main {
 }
 
 #rocket {
-    margin-left: 83px;
+    margin-left: 70px;
 }
 
 .marketing {
@@ -397,6 +429,28 @@ main {
     padding: 0px 39px;
 }
 
+.client_web input:hover{
+    border: 2px solid #cc3300;
+    transition: all 0.2s;
+    -webkit-animation: bordercolor 0.6s ease;
+    -o-animation: bordercolor 0.6s ease;
+    animation: bordercolor 0.6s ease;
+}
+
+@keyframes bordercolor{
+    from{
+        border: 2px solid darkorange;
+    }
+    to{
+        border: 2px solid #cc3300;
+    }
+}
+
+.client_web input:active{
+    background: #cc3300;
+    transform: scale(1.1);
+}
+
 .project_name {
     
     width: 850px;
@@ -441,7 +495,7 @@ main {
     background-color: #eeeeee;
     border-radius: 2px;
     font-size: 15px;
-    color: #7d7d7d;
+    color: #7d7d7d;   
 }
 
 #line_end {
@@ -457,7 +511,8 @@ main {
     height: 500px;
     width: 100%;
     float: left;
-    background: url(../img/stat_bg.png) center/cover no-repeat;
+    background: url(../img/stat_bg.png)  center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 .statistic h2{
@@ -676,7 +731,6 @@ main {
 }
 
 .contacts h3 {
-    width: 100%;
 	float: left;
 	font-size: 25px;
 	font-weight: bold;
@@ -689,6 +743,11 @@ main {
     float: left;
     margin: 45px 0px 0px 595px;
     width: 757px;
+}
+
+.input_text input:active{
+    transform: scale(0.98);
+    transition: all 0.2s;
 }
 
 .name {
@@ -720,10 +779,19 @@ main {
 }
 
 #input_msg {
-    display: block;
+    display: inline-block;
     width: 756px;
     height: 95px;
     padding: 0px 0px 0px 15px;
+}
+
+ #button_send:hover{
+    transform: scale(1);
+}
+
+#button_send:active{
+    background: #354051;
+    transform: scale(0.9);
 }
 
 #button_send {
@@ -737,10 +805,7 @@ main {
 	font-size: 16px;
 	padding: 0px 20px;
 	margin: 27px 0px 0px 302px;
-}
-
-.maps {
-    float: left;
+    transition: all 0.2s;
 }
 
 .copyright {
@@ -754,8 +819,29 @@ main {
     font-size: 13px;
     display: block;
     margin: 40px 0px 0px 830px;
-    color: #fff;
-    
+    color: #fff;   
 }
 
+.time_for_prod{
+    float: left;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    top: -13px;
+    left: 1370px;
+    font-weight: bold;
+}
 
+.cost {
+    float: left;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    top: -14px;
+    left: 1370px;
+    font-weight: bold;
+}
+
+.maps {
+    float: left;
+}
